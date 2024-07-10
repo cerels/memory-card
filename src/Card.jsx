@@ -1,9 +1,9 @@
 import './Card.css'
 
-export default function GameCard({ URL, name }) {
+export default function GameCard({ URL, name, onClick }) {
     return (
       <>
-        <div className="game-card">
+        <div className="game-card" onClick={onClick}>
           <img src={URL} alt={name} />
           <h4>
             <p>{name}</p>
