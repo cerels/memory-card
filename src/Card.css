@@ -1,0 +1,24 @@
+.game-card {
+    background-color: #283747; /* Dark green background */
+    color: white; /* White text color */
+    padding: 1rem; /* Add some padding for spacing */
+    border-radius: 10px; /* Rounded corners for a cleaner look */
+    display: flex; /* Allow stacking image and text vertically */
+    flex-direction: column; /* Stack elements on top of each other */
+    align-items: center; /* Center elements horizontally */
+    text-align: center; /* Center text content */
+    width: 200px; /* Set a fixed width for the card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .game-card img {
+    max-width: 100%; /* Ensure image scales down to fit the card */
+    max-height: 150px; /* Set a fixed maximum height for the image */
+    margin-bottom: 0.5rem; /* Add some space between image and text */
+    border-radius: 10px;
+  }
+  
+  .game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(217, 219, 52, 0.2);
+  }
